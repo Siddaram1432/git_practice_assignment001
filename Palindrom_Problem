@@ -1,0 +1,11 @@
+let str="Kushshradha";
+
+let bag="";
+ for(let i=0;i=str.length-1;i++){
+bag+=str[i];
+}
+if(str=bag){
+console.log("Palindrom");
+}else{
+console.log("Not Palindrom");
+}
